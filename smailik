@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Žmurkajúci smajlík</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .smiley {
+            font-size: 100px;
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            0%, 100% { content: "😊"; }
+            50% { content: "😉"; }
+        }
+    </style>
+</head>
+<body>
+    <div class="smiley">😊</div>
+</body>
+</html>
